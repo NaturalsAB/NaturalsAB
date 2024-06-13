@@ -60,6 +60,7 @@ section{
 
 .btn{
    display: inline-block;
+   text-align: center;
    color: white;
    background: rgb(160, 145, 8); 
    border: 1px solid transparent;
@@ -90,8 +91,10 @@ section{
     z-index: 1000;
 }
 
-.header .logo img{
-    height: 4rem;
+.header .logo{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
 }
 
 .header .navbar a{
@@ -126,13 +129,18 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(../img/main.png) no-repeat;
+    background:#4d9559;
     background-size: cover;
     background-position: center;
 }
 
 .home .content{
     max-width: 60rem;
+}
+
+.home .content-img img{
+        width: 630px;
+        height: auto;    
 }
 
 .home .content h3{
@@ -319,16 +327,25 @@ section{
 
 
 /* media queries  */
+
+
 @media (max-width:991px){
 
     html{
         font-size: 55%;
     }
 
+    .home{
+        
+        text-align: center;
+    
+    }
+
     .header{
         padding:1.5rem 2rem;
     }
 
+    
     section{
         padding:2rem;
     }
@@ -340,7 +357,8 @@ section{
     #menu-btn{
         display: inline-block;
     }
-
+    
+    
     .header .navbar{
         position: absolute;
         top:100%; right: -100%;
@@ -363,8 +381,10 @@ section{
 
 
     .home{
-        background-position: left;
-        justify-content: center;
+        text-align: center;
+    }
+
+    .about{
         text-align: center;
     }
 
