@@ -79,11 +79,10 @@ section{
 }
 
 .header{
-    background: var(--bg);
-    display: flex;
+    background: var(--bg); 
     align-items: center;
     justify-content: space-between;
-    padding:1.5rem 7%;
+    padding:1.5rem 9%;
     border-bottom: var(--border);
     position: fixed;
     top:0; left: 0; right: 0;
@@ -91,7 +90,7 @@ section{
 }
 
 .header .logo{
-    margin: -70px;
+    margin: 0px;
     margin-right: 30px;
     font-size: 25px;
     line-height: 80px;
@@ -378,6 +377,7 @@ section{
     }
 
     .home{
+        margin-top: 110px;
         text-align: center;
         grid-template-columns: 1fr;
     
@@ -432,6 +432,7 @@ section{
         transition: all .5s;
     }
 
+
     .header nav ul li{
         display: block;
         margin: 50px 0;
@@ -452,6 +453,7 @@ section{
     }
 
     .home{
+        margin-top: 110px;
         text-align: center;
         grid-template-columns: 1fr;
     }
@@ -480,3 +482,4 @@ section{
     }
 
 }
+
